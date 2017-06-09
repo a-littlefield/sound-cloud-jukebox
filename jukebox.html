@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Jukebox</title>
+	<script src="https://code.jquery.com/jquery-2.x-git.min.js"></script>
+	<script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+	<script src='jukebox.js'></script>
+
+	<link rel="stylesheet" href="jukebox.css">
+</head>
+<body>
+	<div id="artist"></div>
+	<button id='playPauseButton' data-playing="false" type='button'>Play song</button>
+
+	<!-- <button id='stopMusic' type='button'>Stop music</button> -->
+	<audio id='song'>
+		<source src=''>
+	</audio>
+	<div>
+		<h5 id='list'></h5>
+		<p></p>
+	</div>
+	<!-- <h4 id='choose'>Choose a new song below!</h4>
+	<input id='search' type='search' accept='audio/*'> -->
+	<div id="music"></div>
+	<div id='names'>
+		<p>50623988</p>
+		<p>46290733</p>
+		<p>7195454</p>
+	</div>
+	<div id="photo"></div>
+	<div id="desc"></div>
+
+</body>
+</html>
